@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_user"
+                android:icon="@drawable/users"
+                android:title="USUARIO"
+        />
+
+        <item
+                android:id="@+id/nav_categoria"
+                android:icon="@drawable/categoria"
+                android:title="CATEGORIA"
+        />
+
+        <item
+                android:id="@+id/nav_marca"
+                android:icon="@drawable/marca"
+                android:title="MARCA"
+        />
+        <item
+                android:id="@+id/nav_proveedor"
+                android:icon="@drawable/proveedor"
+                android:title="PROVEEDOR"
+        />
+    </group>
+</menu>

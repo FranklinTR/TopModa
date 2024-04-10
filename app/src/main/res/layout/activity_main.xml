@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/inicio_img"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:gravity="center">
+
+        <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TOPMODA"
+                android:textColor="#FFFFFF"
+                android:textSize="56sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+        <TextView
+                android:id="@+id/subtitle"
+                android:layout_width="262dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="10dp"
+                android:text="BIENVENIDO"
+                android:textSize="36sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"/>
+
+        <TextView
+                android:id="@+id/comment"
+                android:layout_width="320dp"
+                android:layout_height="65dp"
+                android:text="Compre las mejores prendas y lusca increible"
+                android:textSize="20sp"
+                android:layout_marginTop="220dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"/>
+        <Button
+                android:id="@+id/btnIniciar"
+                android:layout_width="320dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="35dp"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_corner"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="INICIAR SESION" />
+
+        <Button
+                android:id="@+id/btnRegistrar"
+                android:layout_width="320dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_corner"
+                android:textColor="@color/black"
+                android:text="REGISTRARSE"/>
+    </LinearLayout>
+</FrameLayout>

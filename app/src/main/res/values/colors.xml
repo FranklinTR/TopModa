@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="topmoda">#4CB94C</color>
+    <color name="textfont">#90A4AE</color>
+    <color name="nav_header">#35A635</color>
+    <color name="precio">#FF0000</color>
+</resources>

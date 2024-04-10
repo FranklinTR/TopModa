@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="PEDIDO"
+          android:id="@+id/pedido"
+          android:icon="@drawable/pedido"
+    />
+
+    <item android:title="INICIO"
+          android:id="@+id/inicio"
+          android:icon="@drawable/inicio"
+    />
+
+    <item android:title="PRODUCTO"
+          android:id="@+id/producto"
+          android:icon="@drawable/producto"/>
+</menu>
